@@ -2,8 +2,8 @@
 //  my_own_imdbTests.swift
 //  my_own_imdbTests
 //
-//  Created by B0206315 on 01/08/18.
-//  Copyright © 2018 Kashmir. All rights reserved.
+//  Created by Shubham on 01/08/18.
+//  Copyright © 2018. All rights reserved.
 //
 
 import XCTest

@@ -2,13 +2,13 @@
 //  ViewController.swift
 //  my_own_imdb
 //
-//  Created by B0206315 on 01/08/18.
-//  Copyright © 2018 Kashmir. All rights reserved.
+//  Created by Shubham on 01/08/18.
+//  Copyright © 2018. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class SearchViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

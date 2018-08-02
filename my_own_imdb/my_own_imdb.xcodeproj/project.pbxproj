@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A2773C022112111B00B3585F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2773C012112111B00B3585F /* AppDelegate.swift */; };
-		A2773C042112111B00B3585F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2773C032112111B00B3585F /* ViewController.swift */; };
+		A2773C042112111B00B3585F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2773C032112111B00B3585F /* SearchViewController.swift */; };
 		A2773C072112111B00B3585F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2773C052112111B00B3585F /* Main.storyboard */; };
 		A2773C0A2112111B00B3585F /* my_own_imdb.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2773C082112111B00B3585F /* my_own_imdb.xcdatamodeld */; };
 		A2773C0C2112111D00B3585F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2773C0B2112111D00B3585F /* Assets.xcassets */; };
@@ -29,7 +29,7 @@
 /* Begin PBXFileReference section */
 		A2773BFE2112111B00B3585F /* my_own_imdb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = my_own_imdb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2773C012112111B00B3585F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A2773C032112111B00B3585F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2773C032112111B00B3585F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		A2773C062112111B00B3585F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2773C092112111B00B3585F /* my_own_imdb.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = my_own_imdb.xcdatamodel; sourceTree = "<group>"; };
 		A2773C0B2112111D00B3585F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				A2773C012112111B00B3585F /* AppDelegate.swift */,
-				A2773C032112111B00B3585F /* ViewController.swift */,
+				A2773C032112111B00B3585F /* SearchViewController.swift */,
 				A2773C052112111B00B3585F /* Main.storyboard */,
 				A2773C0B2112111D00B3585F /* Assets.xcassets */,
 				A2773C0D2112111D00B3585F /* LaunchScreen.storyboard */,
@@ -200,7 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2773C042112111B00B3585F /* ViewController.swift in Sources */,
+				A2773C042112111B00B3585F /* SearchViewController.swift in Sources */,
 				A2773C0A2112111B00B3585F /* my_own_imdb.xcdatamodeld in Sources */,
 				A2773C022112111B00B3585F /* AppDelegate.swift in Sources */,
 			);
@@ -368,7 +368,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kashmir.my-own-imdb";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.my-own-imdb";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -385,7 +385,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kashmir.my-own-imdb";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.my-own-imdb";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
